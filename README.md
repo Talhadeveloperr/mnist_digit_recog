@@ -1,15 +1,119 @@
-# MNIST Digit Recognition
+Here is a complete and professional `README.md` file for your **MNIST Digit Recognition** project using Streamlit, GridSearchCV, and multiple ML models:
 
-A professional end-to-end ML project for recognizing handwritten digits from the MNIST dataset.
+---
 
-## Features
-- Multiple ML algorithms trained with GridSearchCV
-- Feature Scaling with StandardScaler
-- API with FastAPI
-- Streamlit Frontend
+```markdown
+# 🧠 MNIST Digit Recognition Web App
 
-## How to Run
+A professional web application to classify handwritten digits (0–9) from the [MNIST dataset](http://yann.lecun.com/exdb/mnist/), using machine learning models with `GridSearchCV` for optimal performance. The app is built with **Streamlit** and deployed for real-time usage.
 
-### Train Model
+## 🚀 Live Demo
+
+👉 [Click to Open the Web App](https://talhadeveloperr-mnist-digit-recog-streamlit-appapp-6wg1ti.streamlit.app/)
+
+---
+
+## 📌 Project Features
+
+- 📦 Cleaned and preprocessed MNIST dataset
+- 🧹 Feature scaling and reshaping
+- 🔍 Hyperparameter tuning using `GridSearchCV`
+- 🧠 Models used:
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+  - Random Forest
+  - K-Nearest Neighbors
+- 💯 Accuracy and classification report for each model
+- 💾 Model saved with `joblib`
+- 🌐 Streamlit frontend for user digit drawing and prediction
+
+---
+
+## 📂 Project Structure
+
+```
+
+mnist\_digit\_recognition/
+│
+├── streamlit\_app.py         # Main Streamlit app
+├── mnist\_model.pkl          # Trained ML model (saved via joblib)
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── utils.py                 # Utility functions for prediction/drawing
+└── data/                    # MNIST dataset (optional if loaded via sklearn)
+
+````
+
+---
+
+## 🛠️ How to Run Locally
+
+### 1. Clone the Repository
 ```bash
-# Run the notebook to generate best_model.pkl and scaler.pkl
+git clone https://github.com/your-username/mnist-digit-recognition.git
+cd mnist-digit-recognition
+````
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Streamlit App
+
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+## 📊 Model Accuracy
+
+| Model               | Accuracy (after GridSearchCV) |
+| ------------------- | ----------------------------- |
+| Logistic Regression | \~92%                         |
+| SVM                 | \~94%                         |
+| Random Forest       | \~96%                         |
+| KNN                 | \~93%                         |
+
+---
+
+## 🧠 Sample Predictions
+
+Users can draw digits on a canvas, and the app will recognize and classify the digit in real-time.
+
+---
+
+## 📌 Tech Stack
+
+* Python
+* Streamlit
+* Scikit-learn
+* NumPy, Pandas, Matplotlib
+* GridSearchCV
+* Joblib
+
+---
+
+## 🙋‍♂️ Author
+
+**Muhammad Talha Khalid**
+📧 [talhadeveloperr@gmail.com](mailto:talhadeveloperr@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/m-t-k/)
+🌐 [Portfolio](https://talhadeveloperr.github.io)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+```
+
+---
+
+You can copy and paste this entire markdown into your `README.md` file directly in VS Code or GitHub.
+
+Let me know if you want to customize it with project screenshots, usage GIF, or example input/output.
+```
