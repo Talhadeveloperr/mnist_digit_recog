@@ -6,7 +6,7 @@ A professional web application to classify handwritten digits (0–9) from the [
 ## 🚀 Live Demo
 
 👉 [Click to Open the Web App](https://talhadeveloperr-mnist-digit-recog-streamlit-appapp-6wg1ti.streamlit.app/)
-
+```
 ---
 
 ## 📌 Project Features
