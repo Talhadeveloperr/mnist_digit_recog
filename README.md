@@ -1,7 +1,3 @@
-Here is a complete and professional `README.md` file for your **MNIST Digit Recognition** project using Streamlit, GridSearchCV, and multiple ML models:
-
----
-
 ```markdown
 # 🧠 MNIST Digit Recognition Web App
 
@@ -27,24 +23,7 @@ A professional web application to classify handwritten digits (0–9) from the [
 - 💾 Model saved with `joblib`
 - 🌐 Streamlit frontend for user digit drawing and prediction
 
----
 
-## 📂 Project Structure
-
-```
-
-mnist\_digit\_recognition/
-│
-├── streamlit\_app.py         # Main Streamlit app
-├── mnist\_model.pkl          # Trained ML model (saved via joblib)
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-├── utils.py                 # Utility functions for prediction/drawing
-└── data/                    # MNIST dataset (optional if loaded via sklearn)
-
-````
-
----
 
 ## 🛠️ How to Run Locally
 
@@ -103,17 +82,4 @@ Users can draw digits on a canvas, and the app will recognize and classify the d
 🔗 [LinkedIn](https://www.linkedin.com/in/m-t-k/)
 🌐 [Portfolio](https://talhadeveloperr.github.io)
 
----
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-You can copy and paste this entire markdown into your `README.md` file directly in VS Code or GitHub.
-
-Let me know if you want to customize it with project screenshots, usage GIF, or example input/output.
-```
