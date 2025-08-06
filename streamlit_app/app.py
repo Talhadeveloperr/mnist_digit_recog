@@ -10,8 +10,9 @@ import os
 st.set_page_config(page_title="MNIST Digit Recognizer", layout="centered")
 
 # Load model and scaler
-MODEL_PATH = os.path.join("..", "model", "best_model.pkl")
-SCALER_PATH = os.path.join("..", "model", "scaler.pkl")
+MODEL_PATH = "model/best_model.pkl"
+SCALER_PATH = "model/scaler.pkl"
+
 
 @st.cache_resource
 def load_model():
